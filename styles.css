@@ -5,7 +5,7 @@
     display: absolute;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
@@ -13,25 +13,31 @@
 #Sign_In{
     font-size: xx-large;
     color: #000;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#EmailPhone {
+    margin-bottom: 2px;
 }
 
 #EnterEmail{
-    width: 98%;
+    width: 88%;
     margin-bottom: 5%;
 }
 
 #Password {
-    width: 98%;
+    width: 88%;
     margin-bottom: 5%;
 }
 
 #Passwordtxt {
-    margin-left: 200px;
+    margin-left: 165px;
     color: hsl(214, 100%, 49%);
 }
 
 #continueButton{
-    width: 100%;
+    width: 90%;
     background-color: rgb(250, 192, 1);
     height: 30px;
     border: 1px solid rgb(146, 146, 146);
@@ -98,7 +104,8 @@ hr {
 
 li {
     color: hsl(214, 100%, 49%);
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     list-style-type: "\25B8";
     
 }
